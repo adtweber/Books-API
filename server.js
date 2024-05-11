@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use('/books', require('./controllers/books_controller.js'))
 
 app.get('/', (req, res) => {
-    res.render('<h1>Hello from Books API</h1>')
+    res.send('<h1>Hello from Books API</h1>')
 })
 
 // app.get('*', (req, res) => {

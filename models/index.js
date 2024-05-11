@@ -1,4 +1,4 @@
-require('dotenv').config()
+// require('dotenv').config()
 // const mongoose = require('mongoose')
 
 // mongoose.connect(process.env.MONGO_URI, {
@@ -6,4 +6,4 @@ require('dotenv').config()
 //     useUnifiedTopology: true
 // })
 
-module.exports.Book = require('./books')
+// module.exports.Book = require('./books')
